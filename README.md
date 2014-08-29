@@ -2,7 +2,7 @@
 
 Simple repository for scaffolding PHP projects.
 
-**Dependency management:** composer
+**Dependency management:** composer  
 **Unit testing:** phpunit
 
 ## installation
