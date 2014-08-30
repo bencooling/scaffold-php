@@ -11,10 +11,13 @@ Install repo
 
     git clone git@github.com:bencooling/scaffold-php.git && rm -rf scaffold-php/.git
 
+    composer install
+
+Run phpunit test
+
+    ./vendor/bin/phpunit tests/FooTest.php
+
+
 Install composer
 
     curl -s http://getcomposer.org/installer | php
-
-**resources**
-
-- consider [keyvanakbary/php-boilerplate](https://github.com/keyvanakbary/php-boilerplate) for where I want this to eventually get to.

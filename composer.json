@@ -1,5 +1,19 @@
 {
-  "require": {
-    "phpunit/phpunit": "4.4.*@dev"
+  
+  "name": "bencooling/scaffold-php",
+  "description": "Scaffold PHP app with composer for package management & PHPUnit for testing",
+  "keywords": ["php scaffold"],
+  "minimum-stability": "stable"
+, "authors": [{"name": "Ben Cooling"}]
+
+, "require-dev": {
+    "phpunit/phpunit": "4.*"
   }
+
+, "autoload" : {
+    "classmap": [
+      "app/"
+    ]
+  }
+
 }
