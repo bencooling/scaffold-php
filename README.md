@@ -1,9 +1,14 @@
 # Scaffold PHP
 
-Simple repository for scaffolding PHP projects.
+Scaffold simple PHP app.
 
-**Dependency management:** composer  
-**Unit testing:** phpunit
+Features:
+- **Dependency management & autoloading:** composer  
+- **Unit testing:** phpunit
+- Simple implementation of design patterns:
+  - Dependency Injection
+  - Interface as contract (Program to an interface not implementation)
+
 
 ## installation
 

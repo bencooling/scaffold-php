@@ -1,9 +1,16 @@
-<?php
+<?php namespace App;
 
-namespace app;
+use App\BahInterface;
 
-class Foo {
+class Foo implements FooInterface {
+
+  protected $bah;
+
+  public function __construct(BahInterface $bah){
+    $this->bah = $bah;
+  }
+  
   public function getBah(){
-    return 'bah';
+    return $this->bah->getBah();
   }
 }
