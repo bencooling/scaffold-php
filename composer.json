@@ -10,10 +10,10 @@
     "phpunit/phpunit": "4.*"
   }
 
-, "autoload" : {
-    "classmap": [
-      "App/"
-    ]
+, "autoload" : { 
+    "classmap" : [ 
+      "app/" 
+    ] 
   }
 
 }

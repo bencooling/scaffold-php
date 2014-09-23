@@ -1,6 +1,7 @@
 <?php namespace App;
 
-use App\BahInterface;
+use App\Interfaces\FooInterface;
+use App\Interfaces\BahInterface;
 
 class Foo implements FooInterface {
 
