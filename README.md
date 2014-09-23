@@ -21,10 +21,7 @@ Install repo
 
 Run phpunit test
 
-    ./vendor/bin/phpunit tests/FooTest.php
-
-    ./vendor/bin/phpunit tests --bootstrap vendor/autoload.php
-
+    ./vendor/bin/phpunit tests
 
 Install composer
 
