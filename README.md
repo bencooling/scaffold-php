@@ -10,7 +10,6 @@ Features:
   - Interface as contract (Program to an interface not implementation)
   - Namespacing & autoloading
 
-
 ## installation
 
 Install repo
@@ -26,3 +25,10 @@ Run phpunit test
 Install composer
 
     curl -s http://getcomposer.org/installer | php
+
+## TODO
+
+* Travis?
+* PSR-4 Loading
+* phpunit Test Suites
+* Grunt! phpunit, php lint, git precommit https://chrsm.org/2013/04/25/using-grunt-for-php/
