@@ -1,5 +1,7 @@
 # Scaffold PHP
 
+[![Build Status](https://travis-ci.org/bencooling/scaffold-php.svg?branch=master)](https://travis-ci.org/bencooling/scaffold-php)
+
 Scaffold simple PHP app.
 
 Features:
