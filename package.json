@@ -1,0 +1,12 @@
+{
+  "name": "scaffold-php",
+  "version": "0.5.0",
+  "description": "Scaffhold modern php app",
+  "devDependencies": {
+    "grunt": "latest"
+  , "load-grunt-tasks": "latest"
+  , "grunt-contrib-watch": "latest"
+  , "grunt-php": "^1.0.1"
+  , "grunt-phpunit": "^0.3.5"
+  }
+}

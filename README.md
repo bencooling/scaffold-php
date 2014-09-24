@@ -4,13 +4,16 @@
 
 Scaffold simple PHP app.
 
-Features:
-- **Dependency management & autoloading:** composer  
-- **Unit testing:** phpunit
+## Features
+
+- Dependency management & autoloading with composer  
+- Unit testing with phpunit
+- Continuous testing with grunt-phpunit task
 - Simple implementation of:
   - Dependency Injection
-  - Interface as contract (Program to an interface not implementation)
-  - Namespacing & autoloading
+  - Interface as contract
+  - Namespacing
+  - PSR-4 autoloading (TODO, currently composer classmap used)
 
 ## installation
 
@@ -30,7 +33,5 @@ Install composer
 
 ## TODO
 
-* Travis?
-* PSR-4 Loading
 * phpunit Test Suites
-* Grunt! phpunit, php lint, git precommit https://chrsm.org/2013/04/25/using-grunt-for-php/
+* git precommit See: https://chrsm.org/2013/04/25/using-grunt-for-php/ & http://viget.com/extend/grunt-getting-started-with-git-hooks

@@ -14,4 +14,5 @@ class Foo implements FooInterface {
   public function getBah(){
     return $this->bah->getBah();
   }
+
 }
