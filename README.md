@@ -8,7 +8,7 @@ Scaffold simple PHP app.
 
 - Dependency management & autoloading with composer  
 - Unit testing with phpunit
-- Continuous testing with grunt-phpunit task
+- Grunt tasks for continuous testing & simple php server
 - Simple implementation of:
   - Dependency Injection
   - Interface as contract
@@ -26,6 +26,11 @@ Install repo
 Run phpunit test
 
     ./vendor/bin/phpunit tests
+
+Run Grunt for continous testing & php server
+
+    npm install
+    grunt
 
 Install composer
 
