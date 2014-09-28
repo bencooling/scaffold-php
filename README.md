@@ -13,7 +13,7 @@ Scaffold simple PHP app.
   - Dependency Injection
   - Interface as contract
   - Namespacing
-  - PSR-4 autoloading (TODO, currently composer classmap used)
+  - PSR-4 autoloading
 
 ## installation
 
